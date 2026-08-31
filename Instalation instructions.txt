@@ -1,0 +1,3 @@
+Instalation instructions:
+
+Download the .ipynb file (portuguese_toolkit.ipynb) and open on a Jupyter Notebook.

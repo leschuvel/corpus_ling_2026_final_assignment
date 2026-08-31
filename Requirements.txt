@@ -1,0 +1,33 @@
+Requirements:
+
+# for scraping
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
+import json
+
+# for tokenization
+import nltk
+nltk.download("punkt")
+nltk.download("punkt_tab")
+nltk.download("stopwords")
+nltk.download("gutenberg")
+from nltk import tokenize
+from nltk.tokenize import word_tokenize
+
+#POS tagging
+import spacy
+from spacy.lang.pt.examples import sentences 
+
+# word frequency
+from nltk import FreqDist
+
+# for visualization
+import matplotlib.pyplot as plt
+import numpy as np
+from nltk import FreqDist
+from nltk.text import Text
+from nltk.corpus import stopwords
+from sklearn.metrics import ConfusionMatrixDisplay
+nltk.download("punkt")
+nltk.download("punkt_tab")
+nltk.download("stopwords")
